@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    double a;
+    double b;
+    double c;
+    printf("Enter first value :");
+    scanf("%lf",&a);
+    printf("Enter second value:");
+    scanf("%lf",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("First value is %lf \n",a);
+    printf("Second value is %lf",b);
+
+    return 0;
+}
