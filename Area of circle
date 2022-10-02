@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    double Radius;
+    double Area;
+    printf("Enter radius (in metres):");
+    scanf("%lf",&Radius);
+    Area=3.14*Radius*Radius;
+    printf("Area = %lf",Area);
+
+    return 0;
+}
